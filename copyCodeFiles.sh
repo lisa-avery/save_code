@@ -8,7 +8,7 @@
 
 SOURCE="path/to/source/directory"  # replace with source directory
 DESTINATION="path/to/source/directory" # replace with destination directory
-EXTENSIONS="*.qmd -o -name '*.Rmd' -o -name '*.R'"
+EXTENSIONS="-name *.qmd -o -name '*.Rmd' -o -name '*.R'"
 
 # Check if source directory exists
 if [ ! -d "$SOURCE" ]; then
